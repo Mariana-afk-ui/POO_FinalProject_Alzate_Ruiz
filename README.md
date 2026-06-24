@@ -26,6 +26,16 @@ The system features a native, purely algorithmic **Content-Based Recommendation 
    javac src/Main.java src/domain/*.java src/ui/*.java src/data/*.java -d bin
    java -cp bin Main
 
+
+## Input / Output Example (AI Engine Use Case)
+1. Initial State (Input):
+
+Customer C01 (Alice Smith) purchases game G01 (Elden Ring), which belongs to the RPG category.
+
+The store manager registers a new game into the inventory: G03 - The Witcher 3 (Category: RPG, Stock: 5).
+
+2. Console Menu Execution (Interaction):
+
 =========================================
      VIDEO GAME STORE - INTERNAL SYSTEM  
 =========================================
@@ -46,3 +56,8 @@ Running basic AI matching algorithm based on customer history...
 
 >>> AI RECOMMENDED TITLES FOR ALICE SMITH <<<
  - The Witcher 3 (RPG) at $39.99
+
+   Class Diagram
+The system's design class model, including dependencies and aggregation relationships, can be accessed directly via the following link:
+
+View Class Diagram (Copy link) (https://app.creately.com/d/rrNFaoIKNVp/edit)
